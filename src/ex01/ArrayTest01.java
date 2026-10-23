@@ -6,6 +6,7 @@ public class ArrayTest01 {
 		
 		System.out.println("김태연");
 		System.out.println("황미영");
+		System.out.println("최수영");
 		
 	}
 
