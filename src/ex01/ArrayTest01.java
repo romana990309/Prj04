@@ -1,5 +1,7 @@
 package ex01;
 
+import java.rmi.NotBoundException;
+
 public class ArrayTest01 {
 	// Array : 여러변수를 하나의 이름으로 통일해서 사용
 	public static void main(String[] args) {
@@ -24,9 +26,11 @@ public class ArrayTest01 {
 			System.out.println( tts [2]);
 		    System.out.println();
 		    
-			for (int i = 0; i < tts.length; i++) {
-				System.out.println( tts [i]);
-			}
+			//try {
+		    for (int i = 0; i < tts.length; i++) {
+				System.out.println( tts [i]);}
+		      //  }
+		//	catch (ArrayIndexException e) {};
 		//	System.out.println(tts[6]);
 			
 	}
